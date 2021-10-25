@@ -20,6 +20,12 @@ Run the driver program to run the code
 
 if the driver programm throws and error detlete the index files from the root of the repository and do the whole process again.
 
-Step 5:
+Step 5: install trec eval
+`git clone https://github.com/usnistgov/trec_eval.git`
+
+Step 6 run make inside trec_eval toinstall files
+`./trec_eval make`
+
+Step 6:
 Run trec eval to get the map scores
 `./trec_eval/trec_eval QRelsCorrectedforTRECeval results.txt`   
